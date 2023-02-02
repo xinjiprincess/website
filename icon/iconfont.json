@@ -1,0 +1,107 @@
+{
+  "id": "3007018",
+  "name": "demo今日头条",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "880162",
+      "name": "留言",
+      "font_class": "liuyan",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "18448940",
+      "name": "热，hot",
+      "font_class": "rehot",
+      "unicode": "e71d",
+      "unicode_decimal": 59165
+    },
+    {
+      "icon_id": "26485034",
+      "name": "arrow-right",
+      "font_class": "arrow-left",
+      "unicode": "e7a8",
+      "unicode_decimal": 59304
+    },
+    {
+      "icon_id": "11487977",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "e743",
+      "unicode_decimal": 59203
+    },
+    {
+      "icon_id": "3731062",
+      "name": "我",
+      "font_class": "main",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "6127278",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "11674090",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e7a7",
+      "unicode_decimal": 59303
+    },
+    {
+      "icon_id": "1304890",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "2815724",
+      "name": "视频播放",
+      "font_class": "bofang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6129175",
+      "name": "134消息、通知、提醒、铃声、铃铛-线性",
+      "font_class": "tongzhi",
+      "unicode": "e793",
+      "unicode_decimal": 59283
+    },
+    {
+      "icon_id": "7008886",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "16421529",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "18336451",
+      "name": "历史",
+      "font_class": "lishi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "20266210",
+      "name": "排行榜",
+      "font_class": "sort",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    }
+  ]
+}

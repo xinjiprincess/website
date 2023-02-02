@@ -1,0 +1,72 @@
+body {
+  background-color: #f8f8f8;
+}
+
+#videoList {
+  width: 100%;
+}
+
+#videoList li.item {
+  margin-bottom: 8px;
+  background-color: #fff;
+}
+
+#videoList li.item a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#videoList .item .title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 90%;
+  color: #fff;
+  font-size: 16px;
+}
+
+#videoList .item .video-wrap {
+  width: 100%;
+  height: 52vw;
+  overflow: hidden;
+}
+
+#videoList .item .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px;
+}
+
+.info .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info .left .avator {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.info .left .author {
+  font-style: inherit;
+  font-weight: 600;
+}
+
+.info .right {
+  line-height: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info .right i {
+  font-size: 20px;
+  margin-right: 4px;
+}

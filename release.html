@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>发布</title>
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./icon/iconfont.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/views/release.css" />
+</head>
+
+<body>
+  <div class="main-container">
+    <form method="post" onsubmit="return false" id="myForm">
+      <div class="top">
+        <button class="left" id="cancel">取消</button>
+        <button class="right" id="save" type="submit">发布</button>
+      </div>
+      <div class="form-item">
+        <label for="title" class="form-item-label">标题</label>
+        <div class="form-item-input">
+          <input class="form-input" type="text" name="title" id="title" placeholder="请输入标题"
+            oninput="inputChange('title', '标题不能为空哦！')">
+        </div>
+        <div class="error-tips"></div>
+      </div>
+      <div class="form-item">
+        <label for="keyword" class="form-item-label">关键词</label>
+        <div class="form-item-input">
+          <input class="form-input" type="text" name="keyword" id="keyword" placeholder="请输入关键词"
+            oninput="inputChange('keyword', '关键词不能为空哦！')">
+        </div>
+        <div class="error-tips"></div>
+      </div>
+      <div class="form-item">
+        <label for="content" class="form-item-label">分享内容</label>
+        <div class="form-item-input">
+          <textarea class="form-input" name="content" id="content" placeholder="今天，值得记录的小事..." rows="10"
+            oninput="inputChange('content', '分享内容不能为空哦！')"></textarea>
+        </div>
+        <div class="error-tips"></div>
+      </div>
+    </form>
+  </div>
+
+  <script src="./js/views/release.js"></script>
+</body>
+
+</html>

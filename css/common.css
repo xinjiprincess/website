@@ -1,0 +1,27 @@
+.body-top {
+  padding-top: 50px;
+}
+
+.body-bottom {
+  padding-bottom: 56px;
+}
+
+.icon-wrap {
+  margin-right: 4px;
+  font-size: 16px;
+}
+
+.input-control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}

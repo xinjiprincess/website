@@ -1,0 +1,46 @@
+.main-container {
+  padding: 8px 14px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
+  height: 40px;
+  line-height: 40px;
+}
+
+.top button {
+  background-color: transparent;
+  padding: 4px 12px;
+  letter-spacing: 1px;
+}
+
+.top .right {
+  color: #e34e48;
+}
+
+form .form-item {
+  margin: 8px 0;
+}
+
+form .form-item .form-item-label {
+  line-height: 30px;
+  color: #666;
+}
+
+form .form-item .form-item-input {
+  width: 100%;
+}
+
+.form-item-input input,
+.form-item-input textarea {
+  width: 100%;
+}
+
+.error-tips {
+  line-height: 30px;
+  font-size: 12px;
+  color: #e34e48;
+}

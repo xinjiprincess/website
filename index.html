@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>首页</title>
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./icon/iconfont.css" />
+  <link rel="stylesheet" href="./js/plugin/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/tabs.css" />
+  <link rel="stylesheet" href="./css/views/home.css" />
+</head>
+
+<body class="body-top body-bottom">
+  <div class="header-top">
+    <div class="header-search-wrap">
+      <div class="header-search">
+        <div class="icon-wrap">
+          <i class="iconfont icon-search"></i>
+        </div>
+        <div class="search-input-wrap">
+          <input type="text" placeholder="全国疫情局势整体平稳" class="input-control" />
+        </div>
+      </div>
+    </div>
+    <a class="header-release" href="./release.html">
+      <div class="icon-wrap">
+        <i class="iconfont icon-add"></i>
+      </div>
+      <span>发布</span>
+    </a>
+  </div>
+
+  <div class="main-container">
+    <!-- swiper -->
+    <div class="swiper-container news-list">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="#">关注</a></div>
+        <div class="swiper-slide"><a href="#">推荐</a></div>
+        <div class="swiper-slide"><a href="#">视频</a></div>
+        <div class="swiper-slide"><a href="#">小视频</a></div>
+        <div class="swiper-slide"><a href="#">热榜</a></div>
+        <div class="swiper-slide"><a href="#">抗疫</a></div>
+        <div class="swiper-slide"><a href="#">小说</a></div>
+        <div class="swiper-slide"><a href="#">音乐</a></div>
+        <div class="swiper-slide"><a href="#">娱乐</a></div>
+        <div class="swiper-slide"><a href="#">国际</a></div>
+        <div class="swiper-slide"><a href="#">军事</a></div>
+        <div class="swiper-slide"><a href="#">健康</a></div>
+        <div class="swiper-slide"><a href="#">财经</a></div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="swiper-container news-img-list">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./image/swiper/1.png" alt="1">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./image/swiper/2.png" alt="2">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./image/swiper/3.png" alt="3">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 当天热点 -->
+      <ul id="currentDayNews"></ul>
+
+      <!-- 图文信息 -->
+      <div id="pictureTextNews">
+        <div class="pt-item">
+          <h3 class="pt-title">
+            <a href="./detail.html"> 头条 扬帆奋进 中国经济再启新征程</a>
+          </h3>
+          <ul>
+            <li>
+              <div class="feed-card-cover">
+                <a href="">
+                  <img src="./image/new1/1.jpg" alt="1" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="feed-card-cover">
+                <a href="#">
+                  <img src="./image/new1/2.jpg" alt="2" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="feed-card-cover">
+                <a href="#">
+                  <img src="./image/new1/3.jpg" alt="3" />
+                </a>
+              </div>
+            </li>
+          </ul>
+          <div class="pt-info">
+            <span>央视网</span>
+            <span>1396评论</span>
+            <span>3天前</span>
+          </div>
+        </div>
+        <div class="pt-item">
+          <h3 class="pt-title">
+            <a href="#">习近平：增强文化自觉坚定文化自信 展示中国文艺新气象铸就中华文化新辉煌</a>
+          </h3>
+          <ul>
+            <li>
+              <div class="feed-card-cover">
+                <a href="">
+                  <img src="./image/new1/1.jpg" alt="1" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="feed-card-cover">
+                <a href="#">
+                  <img src="./image/new1/2.jpg" alt="2" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="feed-card-cover">
+                <a href="#">
+                  <img src="./image/new1/3.jpg" alt="3" />
+                </a>
+              </div>
+            </li>
+          </ul>
+          <div class="pt-info">
+            <span>央视网</span>
+            <span>1396评论</span>
+            <span>3天前</span>
+          </div>
+        </div>
+        <div class="pt-item">
+          <h3 class="pt-title">
+            <a href="./detail.html"> 头条 扬帆奋进 中国经济再启新征程</a>
+          </h3>
+          <ul>
+            <li>
+              <div class="feed-card-cover">
+                <a href="">
+                  <img src="./image/new1/1.jpg" alt="1" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="feed-card-cover">
+                <a href="#">
+                  <img src="./image/new1/2.jpg" alt="2" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="feed-card-cover">
+                <a href="#">
+                  <img src="./image/new1/3.jpg" alt="3" />
+                </a>
+              </div>
+            </li>
+          </ul>
+          <div class="pt-info">
+            <span>央视网</span>
+            <span>1396评论</span>
+            <span>3天前</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-tabs">
+    <ul>
+      <li class="active">
+        <a href="#">
+          <i class="iconfont icon-home"></i>
+          <span>首页</span>
+        </a>
+      </li>
+      <li>
+        <a href="./sort.html">
+          <i class="iconfont icon-sort"></i>
+          <span>排行榜</span>
+        </a>
+      </li>
+      <li>
+        <a href="./video.html">
+          <i class="iconfont icon-bofang"></i>
+          <span>视频</span>
+        </a>
+      </li>
+      <li>
+        <a href="./mine.html">
+          <i class="iconfont icon-main"></i>
+          <span>我的</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <script src="./js/plugin/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/views/home.js"></script>
+</body>
+
+</html>

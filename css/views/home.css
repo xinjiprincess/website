@@ -1,0 +1,123 @@
+.main-container .news-list {
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.news-list .swiper-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 30px;
+}
+
+.news-list .swiper-wrapper .swiper-slide {
+  width: auto;
+}
+
+.news-list .swiper-wrapper .swiper-slide a {
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.main-content {
+  padding: 10px 14px 0;
+}
+
+.news-img-list {
+  width: 100%;
+  height: 52vw;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#currentDayNews {
+  padding: 2px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#currentDayNews .news-item {
+  line-height: 24px;
+  margin: 8px 0;
+}
+
+#currentDayNews .news-item .news-title {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#currentDayNews .news-item .news-info {
+  font-size: 12px;
+  color: #797979;
+}
+
+#currentDayNews .news-item .news-info .news-top {
+  color: #e34e48;
+  margin-right: 8px;
+}
+
+#currentDayNews .news-item .news-info .news-source {
+  margin-right: 8px;
+}
+
+#pictureTextNews {
+  display: flex;
+  flex-direction: column;
+}
+
+#pictureTextNews .pt-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 8px 0;
+}
+
+#pictureTextNews .pt-item + .pt-item {
+  border-top: 1px solid #e8e8e8;
+}
+
+#pictureTextNews .pt-item .pt-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#pictureTextNews .pt-item ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 6px;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+#pictureTextNews .pt-item ul li {
+  flex: 1;
+  height: 20vw;
+}
+
+#pictureTextNews .pt-item ul li a,
+#pictureTextNews .pt-item .feed-card-cover {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#pictureTextNews .pt-item ul li a img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#pictureTextNews .pt-item .pt-info {
+  font-size: 12px;
+  color: #797979;
+}
+
+#pictureTextNews .pt-item .pt-info span {
+  margin-right: 4px;
+}
